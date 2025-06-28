@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lasya Dot + Front Cam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Lasya's Dual Control</h1>
+
+  <!-- Dot Display + Toggle -->
+  <div id="dot"></div>
+  <label class="switch">
+    <input type="checkbox" id="dotToggle" />
+    <span class="slider"></span>
+  </label>
+  <p>Dot Toggle</p>
+
+  <!-- Video Display -->
+  <video id="video" autoplay playsinline muted></video>
+
+  <!-- My ID Display -->
+  <p id="myId"></p>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
